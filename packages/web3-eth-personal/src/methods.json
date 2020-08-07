@@ -33,13 +33,13 @@
         "name": "sendTransaction",
         "call": "personal_sendTransaction",
         "params": 2,
-        "inputFormatter": [formatters.inputTransactionFormatter, null]
+        "inputFormatter": ["inputTransactionFormatter", null]
     },
 {
         "name": "signTransaction",
         "call": "personal_signTransaction",
         "params": 2,
-        "inputFormatter": [formatters.inputTransactionFormatter, null]
+        "inputFormatter": ["inputTransactionFormatter", null]
     },
 {
         "name": "sign",
@@ -52,5 +52,5 @@
         "call": "personal_ecRecover",
         "params": 2,
         "inputFormatter": ["inputSignFormatter", null]
-    })
+    }
 ]
